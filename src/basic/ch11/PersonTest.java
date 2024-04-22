@@ -26,8 +26,6 @@ public class PersonTest {
 		
 		personBox2.setName("티모");
 		person1.showInfo();
-		
-		
 
 	} // end of main
 
