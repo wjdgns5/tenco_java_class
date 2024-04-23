@@ -1,4 +1,4 @@
-package starcraft.ver01;
+package starcraft.ver02;
 
 import java.util.Scanner;
 
