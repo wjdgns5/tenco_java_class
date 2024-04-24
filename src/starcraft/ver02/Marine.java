@@ -9,6 +9,7 @@ public class Marine {
 
 	// 생성자  단축키 : ctrl + sapce + enter
 	public Marine(String name) {
+		this.name = name;
 		this.power = 4; // 공격력 설정
 		this.hp = 70; // 체력 설정
 	} // end of Marine()
