@@ -11,13 +11,13 @@ public class StringBufferTest {
 		// StringBuffer 타입
 		System.out.println(bufferStr);
 		// 1.
-		System.out.println(System.identityHashCode(bufferStr)); // 원시 주소 값
+		System.out.println("bufferStr : "+System.identityHashCode(bufferStr)); // 원시 주소 값
 		
 		bufferStr.append(str2);
 		
 		System.out.println(bufferStr); 
 		// 2.
-		System.out.println(System.identityHashCode(bufferStr));
+		System.out.println("bufferStr : "+System.identityHashCode(bufferStr));
 		
 		// 1번 결과와 2번 결과에 주소값이 같다라는 의미는
 		// 새로운 메모리를 할당 한 것이 아닌 변경한 것이다.
