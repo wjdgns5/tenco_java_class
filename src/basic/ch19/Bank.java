@@ -21,15 +21,15 @@ public class Bank {
 
 		switch (serviceType) {
 		case ACOUNT_INFO:
-			System.out.println(customer.getName() + "계좌 정보 조회를 합니다.");
+			System.out.println(customer.getName() + " 계좌 정보 조회를 합니다.");
 			break;
 		case DEPOSIT:
-			System.out.println(customer.getName() + "입금을 진행 합니다.");
+			System.out.println(customer.getName() + " 입금을 진행 합니다.");
 			break;
 		case WITHDRAW:
-			System.out.println(customer.getName() + "출금을 진행 합니다.");
+			System.out.println(customer.getName() + " 출금을 진행 합니다.");
 		default:
-			System.out.println("해당 서비스는 제공하지 않습니다.");
+			System.out.println(" 해당 서비스는 제공하지 않습니다.");
 		}
 
 	}

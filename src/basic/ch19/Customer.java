@@ -19,6 +19,7 @@ public class Customer {
 	// 은행 서비스를 이용하는 메서드 - 연관관계
 	public void useBankService(Bank bank) {
 		bank.proviedService(ServiceType.DEPOSIT, this);
+		System.out.println(bank.getName());
 	}
 
 }
