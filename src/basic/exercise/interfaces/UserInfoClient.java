@@ -21,13 +21,7 @@ public class UserInfoClient {
 		iUserInfoDao1.updateUserInfo(userInfo);
 		iUserInfoDao1.deleteUserInfo(userInfo.getId());
 		iUserInfoDao1.selectUserInfo();
-		
-		
-		
-		
-		
-		
-		
+	
 	} // end of main
 
 } // end of class
