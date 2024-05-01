@@ -17,7 +17,7 @@ public class MyThread extends Thread {
 	public void run() {
 		// 우리가 동작 시키고자 하는 일을 정의해서 코드를 설계할 수 있다.
 		// 임무 -> 반복문 200을 수행해!
-		for (int i = 0; i < 200; i++) {
+		for (int i = 0; i < 50; i++) {
 			System.out.print(i + ", ");
 			
 			try { // Thread.sleep() 잠깐 잠들어라 라는 기능 1000 -> 1초 딜레이
