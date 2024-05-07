@@ -24,6 +24,7 @@ public class FileExceptionHandling {
 			System.out.println("finally 블록 수행");
 			// fis.close(); // 닫는 시점에 fis. <-- 객체가 생성 안되어 있을 수 있다.
 			// fit.close(); // try -catch 사용이 된다.
+			
 			try {
 				fis.close();
 			} catch (IOException e) {

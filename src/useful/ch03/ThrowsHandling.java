@@ -9,7 +9,7 @@ public class ThrowsHandling {
 		try {
 			// 던져서 강제성이 발생이 되고
 			// 사용하는 사람이 직접 예외 처리 핸들링을 할 수 있다.
-			calc.divide(10, 0);
+			calc.divide(10, 2);
 		} catch (ArithmeticException e) {
 			System.out.println("어떤 수를 0으로 나눌 수 없어요");
 		} catch (Exception e) {
@@ -25,7 +25,7 @@ class Calc {
 		// 해결 방법
 		// 1. 해당 메서드에서 직접 예외 처리를 구현 한다.
 		// 2. 사용하는 사람이 직접 예외 처리를 할 수 있도록 던져 버린다.
-
+System.out.println(n1/n2);
 		return n1 / n2;
 	} // end of divide()
 } // end of class
